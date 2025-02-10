@@ -3,7 +3,7 @@ let numberLimit = 50;
 let numberSecret =  generateRandomNumber();
 let attempts = 1; 
 
-console.log(numberSecret)
+console.log(numberSecret)                                    
 // Retrieve the return value and store it in numberSecret
 
 /*let titulo = document.querySelector('h1');
