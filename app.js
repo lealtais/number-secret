@@ -1,5 +1,5 @@
 let arrayNumberRandom = [ ]; 
-let numberLimit = 100;
+let numberLimit = 50;
 let numberSecret =  generateRandomNumber();
 let attempts = 1; 
 
@@ -23,7 +23,7 @@ function showText(tag, text){
 function initialMessage(){
 
     showText('h1','Secret number guessing game'); 
-    showText('p','Try to guess the secret number I am thinking, of between 0 and 10!');
+    showText('p','Try to guess the secret number I am thinking, of between 0 and 50!');
 
     }
 
